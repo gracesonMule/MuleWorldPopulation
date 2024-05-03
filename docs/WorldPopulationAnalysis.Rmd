@@ -1,0 +1,12 @@
+---
+title: "Population Analysis"
+author: "Graceson Mule"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r}
+library(MuleWorldPopulation)
+CountryPopulation('United States of America')
+```
+We can see that the population of the US has been increasing pretty linearly.
